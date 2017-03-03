@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: NodeCloudDeployExample
+  host: NodeCloudDeployExample
+  disk_quota: 1024M
+  services:
+  - NodeCloudDeployExample-cloudantNoSQLDB
+  - availability-monitoring-auto
